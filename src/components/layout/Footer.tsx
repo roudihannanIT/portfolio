@@ -12,17 +12,23 @@ export default function Footer() {
               GitHub
             </a>
             <a 
-              href="https://linkedin.com/in/roudihannan" 
+              href="https://www.linkedin.com/in/roudi-hannan-6243a5366/" 
               target="_blank"
               className="hover:text-blue-600 transition"
             >
               LinkedIn
             </a>
             <a 
-              href="mailto:roudihannan@email.com"
+              href="mailto:roudihannan7@gmail.com"
               className="hover:text-blue-600 transition"
             >
               Email
+            </a>
+             <a 
+              href="https://www.instagram.com/roudihannan8?igsh=Y3pxaXM2ZHdpcXJk"
+              className="hover:text-blue-600 transition"
+            >
+              Instagram
             </a>
           </div>
           <p className="text-sm text-gray-600 dark:text-gray-400">
