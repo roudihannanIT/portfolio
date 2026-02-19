@@ -14,6 +14,11 @@ My personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
     src/
         app/                    # Next.js App Router pages
+            projects/
+                [id]/
+                    not-found.tsx
+                page.tsx
+
             globals.css
             layout.tsx
             page.tsx
@@ -25,6 +30,10 @@ My personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
                     Navbar.tsx
 
                 ui/             # UI components
+                    ThemeProvider.tsx
+            
+            data/
+                projects.tsx
 
 ---
 
@@ -33,15 +42,6 @@ My personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 2. Install dependencies: npm install
 3. Run development server: npm run dev
 4. Open http://localhost:3000
-
-## 📝 Features
-- Responsive design
-- Dark mode ready
-- Clean and modern UI
-- Easy to add new projects
-
-## 🔄 Adding New Projects
-To add a new project, update the data in src/data/projects.ts (coming soon)
 
 ## 📞 Contact
 - GitHub: [@roudihannanIT](https://github.com/roudihannanIT)
